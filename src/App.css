@@ -1,0 +1,17 @@
+table thead {
+  top: 0;
+  position: sticky;
+}
+table thead th:first-child {
+  position: sticky;
+  left: 0;
+}
+table tbody tr,
+table thead tr {
+  position: relative;
+}
+table tbody th {
+  position: sticky;
+  left: 0;
+  background-color: aliceblue;
+}
